@@ -77,3 +77,15 @@ The purpose of this tourism web application is to make it easy for users to plan
 ## ENTITY RELATIONSHIP DIAGRAM (ERD)
 
 ![ERD](/assets/erdnusantara.png "ERD Diagram")
+
+## Sequence Diagram
+
+![sequence](/assets/sequencediagram.png "Sequence Diagram")
+
+## References
+
+Stapylton-Smith, L. (2025, April 9). The most beautiful places to visit in Malaysia | Unforgettable travel company. Unforgettable Travel Company. https://unforgettabletravel.com/blog/the-most-beautiful-places-to-visit-in-malaysia/
+
+55 Places To Visit In Malaysia | Malaysia Tourist Attractions. (n.d.). https://www.thrillophilia.com/. https://www.thrillophilia.com/places-to-visit-in-malaysia
+
+48 places to visit in Malaysia | Tourist places in Malaysia | Holidify. (n.d.). https://www.holidify.com/country/malaysia/places-to-visit.html
