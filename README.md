@@ -9,7 +9,9 @@ SECTION 1
 
 GROUP E
 
-LINK GITHUB:
+LINK GITHUB: https://github.com/NikuAfreak/Nusantara-Journeys
+
+PROTOTYPE LINK: https://sites.google.com/view/nusantarajourneys/home
 
 YOUTUBE LINK:
 
@@ -74,4 +76,4 @@ The purpose of this tourism web application is to make it easy for users to plan
 
 ## ENTITY RELATIONSHIP DIAGRAM (ERD)
 
-
+![ERD](/assets/erdnusantara.png "ERD Diagram")
