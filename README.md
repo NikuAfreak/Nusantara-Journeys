@@ -43,3 +43,35 @@ This Laravel-based tourism web application seeks to elevate Malaysia's tourism i
 
 The application will serve multiple stakeholders within the tourism ecosystem - from travelers seeking authentic Malaysian experiences to tour operators looking to showcase their packages and administrators who need efficient tools to manage content and user interactions. Through intuitive interfaces, interactive features, and secure transaction capabilities, this platform aims to streamline the tourism experience while promoting Malaysia's diverse attractions to a global audience.
 
+## Objectives
+
+- Create a comprehensive tourism platform that showcases Malaysia's diverse destinations, cultural experiences, and natural attractions through engaging visual content and detailed information.
+
+- Develop a secure and user-friendly booking system that allows travelers to browse, select, and purchase tour packages with instant confirmation and electronic receipts.
+
+- Implement a responsive design framework that ensures optimal user experience across desktop computers, tablets, and mobile devices, accommodating various screen sizes and resolutions.
+
+- Establish a robust user authentication system that enables personalized experiences, secure transactions, and the ability for users to save preferences and submit reviews.
+
+- Design an efficient administrative dashboard that empowers content managers to update destination information, manage tour packages, and moderate user-generated content without technical expertise.
+
+## FEATURES & FUNCTIONALITIES
+
+The purpose of this tourism web application is to make it easy for users to plan trip packages and discover stunning locations in Malaysia. It is easy to use and compatible with both PCs and phones. Visitors may locate tourist attractions, read about them, reserve travel packages, and post reviews. The website can be updated and managed by admin users. The key characteristics are listed below:
+
+| Features      | Description |
+| ----------- | ----------- |
+| Tourist Places      | See pictures and information about Malaysian locations like Langkawi, Penang, or KL.       |
+| Tour Packages   | View various packages together with their costs, schedules, and available dates.        |
+| User Login & Signup      | To book and review, users must first register and log in. Content is managed by administrators.       |
+| Online Booking   | Get a confirmation email when you book a tour package.        |
+| User Reviews      | Places and packages can be rated and reviewed by users.       |
+| Google Map Integration   | Use an interactive map to view the locations of locations.        |
+| Media Gallery      | Displays lovely images and brief films for every location.       |
+|  Search & Filter   | Destinations can be searched or filtered by state, price, category, or name.        |
+| Responsive Design     | The website functions properly on desktop, tablet, and mobile devices.       |
+|  Admin Dashboard   | Admin can manage users, destinations, and packages securely.        |
+
+## ENTITY RELATIONSHIP DIAGRAM (ERD)
+
+
