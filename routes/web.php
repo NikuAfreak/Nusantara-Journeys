@@ -10,9 +10,12 @@ Route::get('/', function () {
 
 // Auth routes - outside the closure!
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
-Route::post('/login', [AuthController::class, 'login']);
+Route::post('/login', [AuthController::class, 'login'])->name('login.submit');
 
 Route::get('/register', [AuthController::class, 'showRegisterForm'])->name('register');
 Route::post('/register', [AuthController::class, 'register']);
 
 Route::post('/logout', [AuthController::class, 'logout']);
+Route::get('/index', function () {
+    return view('index');
+})->middleware('auth');
