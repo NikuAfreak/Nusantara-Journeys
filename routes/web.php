@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\PackageController;
 
 // Home page route
 Route::get('/', function () {
@@ -9,9 +10,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/packages', function(){
-    return view('package');
-});
+Route::get('/package', [PackageController::class, 'index'])->name('packages');
 // Auth routes - outside the closure!
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
