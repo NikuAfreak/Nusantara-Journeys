@@ -289,7 +289,7 @@
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Nubhana Amin</h5>
+                            <h5 class="mb-0">Aifqa Nubhana</h5>
                             <small>Guide for: Cameron Highlands</small>
                         </div>
                     </div>
