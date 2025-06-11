@@ -11,9 +11,22 @@
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/package-1.jpg" alt="">
-                        </div>
+                        <div class="carousel">
+                           <ul class="carousel-slides">
+                             <li class="carousel-slide">
+                              <img src="img/package-3.jpg" alt="Image 1">
+                             </li>
+                             <li class="carousel-slide">
+                              <img src="img/package-2.jpg" alt="Image 2">
+                             </li>
+                             <li class="carousel-slide">
+                              <img src="img/package-1.jpg" alt="Image 3">
+                             </li>
+                           </ul>
+                           <a href="#" class="carousel-prev">Previous</a>
+                           <a href="#" class="carousel-next">Next</a>
+                </div>
+
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Pangkor</small>
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>7 days</small>
