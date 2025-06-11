@@ -57,10 +57,10 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
                     <a href="{{ route('index') }}" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
+                    {{-- <a href="about.html" class="nav-item nav-link">About</a> --}}
                     <a href="{{ url('/threedaypackage') }}" class="nav-item nav-link">3 Day Packages</a>
-                    <a href="{{ route('packages') }}" class="nav-item nav-link">Packages</a>
-                    <div class="nav-item dropdown">
+                    <a href="{{ route('packages') }}" class="nav-item nav-link">7 Day Packages</a>
+                    {{-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
                             <a href="destination.html" class="dropdown-item">Destination</a>
@@ -69,7 +69,7 @@
                             <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                             <a href="404.html" class="dropdown-item">404 Page</a>
                         </div>
-                    </div>
+                    </div> --}}
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
                <a href="{{ route('login') }}" class="btn btn-primary rounded-pill py-2 px-4">Login</a>
