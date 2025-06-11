@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                    <h1 class="mb-4">Welcome to <span class="text-primary">Nusantara</span></h1>
+                    <h1 class="mb-4">Welcome to <span class="text-primary">Nusantara Journeys</span></h1>
                     <p class="mb-4">Welcome to Nusantara Journeys, where rich cultural heritage, breathtaking landscapes, and vibrant cities meet seamless travel planning. </p>
                     <p class="mb-4">Our platform connects you effortlessly to Malaysia’s treasures—explore detailed attractions, book curated tour packages, and share your adventures—all through one intuitive, mobile-friendly hub.  Start crafting your perfect Malaysian adventure today, anytime, anywhere.</p>
                     <div class="row gy-2 gx-4 mb-4">
