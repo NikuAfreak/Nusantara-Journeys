@@ -77,9 +77,10 @@
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">RM1375.00</h3>
+
 
                             <p>Langkawi, officially known as Langkawi, the Jewel of Kedah, is a duty-free island and an archipelago of 99 islands located some 30 km off the coast of northwestern Malaysia and a few kilometres south of Ko Tarutao</p>
+                            <h3 class="mb-0">RM1375.00</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
