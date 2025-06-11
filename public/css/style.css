@@ -401,7 +401,7 @@
   flex-shrink: 0;
   scroll-snap-align: start;
   /* Align to the start of the container */
-  overflow: hidden;
+
 }
 
 .carousel-slide img {
