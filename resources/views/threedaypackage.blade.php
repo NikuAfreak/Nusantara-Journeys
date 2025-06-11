@@ -3,7 +3,7 @@
 
     <!-- Package Start -->
     <div class="container-xxl py-5">
-        <div class="container">
+        <div class="container" style="margin-top: 80px;">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-primary px-3">Packages</h6>
                 <h1 class="mb-5">3 Day Packages</h1>
