@@ -10,7 +10,8 @@
                         <div class="mb-4">
                             <i class="fas fa-check-circle text-success fa-5x mb-3"></i>
                             <h2 class="fw-bold">Booking Confirmed!</h2>
-                            <p class="lead">Thank you for choosing Nusantara Journeys</p>
+                            <p class="lead">Thank you for choosing Nusantara Journeys.</p>
+                            <p class="lead">Your receipt will be given through email.</p>
 
                             @if(session('success'))
                             <div class="alert alert-success">
