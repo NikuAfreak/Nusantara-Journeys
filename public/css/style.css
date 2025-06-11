@@ -382,31 +382,48 @@
   overflow-x: auto;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
-  /* Ensure smooth scrolling */
-  -webkit-scroll-behavior: smooth;
   scroll-behavior: smooth;
+  position: relative;
 }
 
+/* Carousel track */
 .carousel-slides {
   display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
-  /* Disable native scrolling */
   overflow-x: auto;
 }
 
+/* Each slide */
 .carousel-slide {
   flex-shrink: 0;
+  width: 100%;
+  height: 100%;
   scroll-snap-align: start;
-  /* Align to the start of the container */
 
+  /* Apply the .package-item box shadow */
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  position: relative;
 }
 
+/* Image inside the slide */
 .carousel-slide img {
-  object-fit: cover; /* Maintain aspect ratio */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  /* Match transition effect from .package-item img */
+  transition: transform 0.5s;
 }
 
+/* Hover effect like .package-item:hover img */
+.carousel-slide:hover img {
+  transform: scale(1.1);
+}
+
+/* Navigation buttons */
 .carousel-prev,
 .carousel-next {
   position: absolute;
@@ -416,6 +433,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   text-decoration: none;
+  z-index: 10;
 }
 
 .carousel-prev {
@@ -426,9 +444,10 @@
   right: 0;
 }
 
-/* Optional: Add navigation dots */
+/* Optional: Navigation dots */
 .carousel-dots {
   text-align: center;
+  margin-top: 10px;
 }
 
 .carousel-dots .carousel-dot {
@@ -444,6 +463,7 @@
 .carousel-dots .carousel-dot.active {
   background-color: #333;
 }
+
 
 
 /*** Footer ***/
