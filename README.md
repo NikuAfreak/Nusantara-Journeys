@@ -69,11 +69,7 @@ The purpose of this tourism web application is to make it easy for users to plan
 | User Login & Signup      | To book and review, users must first register and log in. Content is managed by administrators.       |
 | Online Booking   | Get a confirmation email when you book a tour package.        |
 | User Reviews      | Places and packages can be rated and reviewed by users.       |
-| Google Map Integration   | Use an interactive map to view the locations of locations.        |
 | Media Gallery      | Displays lovely images and brief films for every location.       |
-|  Search & Filter   | Destinations can be searched or filtered by state, price, category, or name.        |
-| Responsive Design     | The website functions properly on desktop, tablet, and mobile devices.       |
-|  Admin Dashboard   | Admin can manage users, destinations, and packages securely.        |
 
 ## ENTITY RELATIONSHIP DIAGRAM (ERD)
 
