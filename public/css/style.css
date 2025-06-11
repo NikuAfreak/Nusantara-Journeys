@@ -394,12 +394,14 @@
   margin: 0;
   /* Disable native scrolling */
   overflow-x: auto;
+  overflow:hidden;
 }
 
 .carousel-slide {
   flex-shrink: 0;
   scroll-snap-align: start;
   /* Align to the start of the container */
+  overflow: hidden;
 }
 
 .carousel-slide img {
