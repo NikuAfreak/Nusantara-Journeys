@@ -23,8 +23,6 @@
                               <img src="img/package-1.jpg" alt="Image 3">
                              </li>
                            </ul>
-                           <a href="#" class="carousel-prev">Previous</a>
-                           <a href="#" class="carousel-next">Next</a>
                         </div>
 
                         <div class="d-flex border-bottom">
