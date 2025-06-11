@@ -40,27 +40,27 @@ body {
         }
 
         .brand-text {
-            color: #7bc043;
+            color: #C54B24;
             font-weight: bold;
             font-size: 22px;
         }
 
         .form-control:focus {
-            border-color: #7bc043;
-            box-shadow: 0 0 0 0.2rem rgba(123, 192, 67, 0.25);
+            border-color: #C54B24;
+            box-shadow: 0 0 0 0.2rem #702c15;
         }
 
         .btn-green {
-            background-color: #7bc043;
+            background-color: #C54B24;
             border: none;
         }
 
         .btn-green:hover {
-            background-color: #6ab034;
+            background-color: #c7856f;
         }
 
         a {
-            color: #7bc043;
+            color: #C54B24;
         }
     </style>
 </head>

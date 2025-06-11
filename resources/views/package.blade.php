@@ -12,23 +12,25 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                           <ul class="carousel-slides">
-                             <li class="carousel-slide">
-                               <img src="{{asset('img/pangkor1.jpg')}}" alt="Image 1">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/pangkor2.jpg')}}" alt="Image 2">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/pangkor3.jpg')}}" alt="Image 3">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/pangkor4.png')}}" alt="Image 3">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/pangkor5.png')}}" alt="Image 3">
-                             </li>
-                            </ul>
+                           <div id="packageCarousel1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                    <img src="img/pangkor1.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="img/pangkor2.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="img/pangkor3.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#packageCarousel1" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#packageCarousel1" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
                         </div>
 
                         <div class="d-flex border-bottom">
@@ -48,7 +50,7 @@
                                 <small class="fa fa-star text-primary"></small>
                             </div>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                {{-- <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a> --}}
                                 <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
                             </div>
                         </div>
@@ -57,23 +59,25 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                           <ul class="carousel-slides">
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/penang1.jpg')}}" alt="Image 1">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/penang2.jpeg')}}" alt="Image 2">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/penang3.jpg')}}" alt="Image 3">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/penang4.png')}}" alt="Image 3">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/penang5.png')}}" alt="Image 3">
-                             </li>
-                            </ul>
+                           <div id="packageCarousel2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                    <img src="img/penang1.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="img/penang2.jpeg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="img/penang3.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#packageCarousel2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#packageCarousel2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
                         </div>
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Penang</small>
@@ -92,7 +96,7 @@
                                 <small class="fa fa-star text-primary"></small>
                             </div>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                {{-- <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a> --}}
                                 <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
                             </div>
                         </div>
@@ -101,23 +105,25 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                           <ul class="carousel-slides">
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/langkawi5.jpg')}}" alt="Image 1">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/langkawi1.webp')}}" alt="Image 2">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/langkawi2.jpg')}}" alt="Image 3">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/langkawi3.png')}}" alt="Image 3">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/langkawi4.png')}}" alt="Image 3">
-                             </li>
-                           </ul>
+                           <div id="packageCarousel3" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                    <img src="img/langkawi1.webp" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="img/langkawi2.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="img/langkawi4.png" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#packageCarousel3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#packageCarousel3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
                         </div>
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Langkawi</small>
@@ -136,7 +142,7 @@
                                 <small class="fa fa-star text-primary"></small>
                             </div>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                {{-- <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a> --}}
                                 <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
                             </div>
                         </div>
