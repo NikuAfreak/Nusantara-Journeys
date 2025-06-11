@@ -398,15 +398,11 @@
 
 .carousel-slide {
   flex-shrink: 0;
-  width: 100%;
-  height: 100%;
   scroll-snap-align: start;
   /* Align to the start of the container */
 }
 
 .carousel-slide img {
-  width: 100%;
-  height: 100%;
   object-fit: cover; /* Maintain aspect ratio */
 }
 
