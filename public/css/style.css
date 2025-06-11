@@ -394,7 +394,6 @@
   margin: 0;
   /* Disable native scrolling */
   overflow-x: auto;
-  overflow:hidden;
 }
 
 .carousel-slide {
