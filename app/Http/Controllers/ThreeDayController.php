@@ -11,7 +11,14 @@ class ThreeDayController extends Controller
      */
     public function index()
     {
-        return view('threedaypackage');
+        $packages = Package::threeDay()->get();
+        return view('threedaypackage', compact('packages'));
+        // return view('threedaypackage');
+    }
+
+    public function book(Package $package){
+        session(['package' => $package]);
+        return redirect()->route('checkout');
     }
 
     /**
