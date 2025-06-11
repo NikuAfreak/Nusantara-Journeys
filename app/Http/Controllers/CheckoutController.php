@@ -32,31 +32,38 @@ class CheckoutController extends Controller
         ]);
 
 
-        $package = session('package');
+        // $package = session('package');
+        $package = json_decode($request->package, true) ?? session('package');
 
         if (!$package) {
-            return redirect()->back()->with('error', 'Package not found in session');
+            return response()->json(['error' => 'Package not found'], 400);
         }
 
+
         // Create booking
-        $booking = Booking::create([
-            'user_id' => auth()->id(),
-            'package_name' => $package['name'], // Store package name since we don't have ID
-            'package_price' => $package['price'],
-            'reference_number' => 'BOOK-' . now()->timestamp,
-            'amount' => $package['price'],
-            'status' => 'confirmed',
-            'customer_details' => json_encode($validated) // Store all customer details
-        ]);
+        $bookingDetails = [
+            'package_name' => session('package')->name,
+            'destination' => session('package')->destination,
+            'duration' => session('package')->duration_days,
+            'price' => session('package')->price,
+            'reference' => Str::upper(Str::random(8)), // Generate random booking reference
+            'customer_name' => $request->first_name . ' ' . $request->last_name,
+            'customer_email' => $request->email
+        ];
 
         // Clear session
-        session()->forget('package');
+        $request->session()->forget('package');
 
-        // Redirect to success page with booking ID
-        return redirect()->route('booking.success')->with([
-            'success' => 'Booking confirmed! Your reference number is: ' . $booking->reference_number,
-            'booking' => $booking->toArray() // Convert to array for session storage
+        // Store booking in session
+        session([
+            'success' => 'Booking confirmed! Your reference number is: ' . $bookingData['reference_number'],
+            'booking' => $bookingData
         ]);
+
+        // Return redirect response
+        return redirect()->route('success')
+                        ->with('success', 'Your booking has been confirmed!')
+                        ->with('booking_details', $bookingDetails);
     }
 
     public function success()

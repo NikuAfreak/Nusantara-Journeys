@@ -33,5 +33,13 @@ Route::get('/index', function () {
 
 
 Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout');
-Route::post('/checkout/process', [CheckoutController::class, 'process'])->name('checkout.process');
-Route::get('/booking/success', [CheckoutController::class, 'success'])->name('booking.success');
+// Route::post('/checkout/process', [CheckoutController::class, 'success'])->name('checkout.process');
+// Route::get('/booking/success', [CheckoutController::class, 'success'])->name('booking.success');
+
+Route::get('/success', function () {
+    // if (!session('booking_details')) {
+    //     return redirect()->route('packages')->with('error', 'No booking found');
+    // }
+    return view('success');
+})->name('success');
+
