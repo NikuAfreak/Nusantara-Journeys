@@ -4,8 +4,8 @@
 
     <!-- About Start -->
 
-    <div class="container-xxl py-5 mt-5">
-        <div class="container">
+    <div class="container-xxl py-5 ">
+        <div class="container" style="margin-top: 80px;">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
