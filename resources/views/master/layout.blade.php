@@ -56,10 +56,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="{{ route('index') }}" class="nav-item nav-link active">Home</a>
+                    <a href="{{ route('index') }}" class="nav-item nav-link {{ Route::is('index') ? 'active' : '' }}">Home</a>
                     {{-- <a href="about.html" class="nav-item nav-link">About</a> --}}
-                    <a href="{{ url('/threedaypackage') }}" class="nav-item nav-link">3 Day Packages</a>
-                    <a href="{{ route('packages') }}" class="nav-item nav-link">7 Day Packages</a>
+                    <a href="{{ url('/threedaypackage') }}" class="nav-item nav-link {{ Route::is('threedaypackage') ? 'active' : '' }}">3 Day Packages</a>
+                    <a href="{{ route('packages') }}" class="nav-item nav-link {{ Route::is('packages') ? 'active' : '' }}">7 Day Packages</a>
                     {{-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
