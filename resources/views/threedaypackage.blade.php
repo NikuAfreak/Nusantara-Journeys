@@ -6,38 +6,21 @@
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-primary px-3">Packages</h6>
-                <h1 class="mb-5">7-Day Packages</h1>
+                <h1 class="mb-5">Awesome Packages</h1>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                           <ul class="carousel-slides">
-                             <li class="carousel-slide">
-                               <img src="{{asset('img/pangkor1.jpg')}}" alt="Image 1">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/pangkor2.jpg')}}" alt="Image 2">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/pangkor3.jpg')}}" alt="Image 3">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/pangkor4.png')}}" alt="Image 3">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/pangkor5.png')}}" alt="Image 3">
-                             </li>
-                            </ul>
+                            <img class="img-fluid" src="img/package-1.jpg" alt="">
                         </div>
-
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Pangkor</small>
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>7 days</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
                         </div>
                         <div class="text-center p-4">
-                            <h2 class="mb-0">PANGKOR</h2>
+
                             <p>Welcome to Pulau Pangkor, Pangkor Island lies just off the west coast of Peninsular Malaysia. It’s known for beaches like Teluk Nipah, Coral Bay and Pasir Giam, which connects to coral-ringed Giam Island at low tide</p>
                             <h3 class="mb-0">RM2400.00</h3>
                             <div class="mb-3">
@@ -57,23 +40,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                           <ul class="carousel-slides">
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/penang1.jpg')}}" alt="Image 1">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/penang2.jpeg')}}" alt="Image 2">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/penang3.jpg')}}" alt="Image 3">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/penang4.png')}}" alt="Image 3">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/penang5.png')}}" alt="Image 3">
-                             </li>
-                            </ul>
+                            <img class="img-fluid" src="img/package-2.jpg" alt="">
                         </div>
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Penang</small>
@@ -81,7 +48,8 @@
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
                         </div>
                         <div class="text-center p-4">
-                            <h2 class="mb-0">PENANG</h2>
+
+
                             <p>Penang is famous for its vibrant mix of cultures, delicious street food, and beautiful colonial architecture, particularly in George Town, a UNESCO World Heritage site.</p>
                             <h3 class="mb-0">RM1000.00</h3>
                             <div class="mb-3">
@@ -101,23 +69,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                           <ul class="carousel-slides">
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/langkawi5.jpg')}}" alt="Image 1">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/langkawi1.webp')}}" alt="Image 2">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/langkawi2.jpg')}}" alt="Image 3">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/langkawi3.png')}}" alt="Image 3">
-                             </li>
-                             <li class="carousel-slide">
-                              <img src="{{asset('img/langkawi4.png')}}" alt="Image 3">
-                             </li>
-                           </ul>
+                            <img class="img-fluid" src="img/package-3.jpg" alt="">
                         </div>
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Langkawi</small>
@@ -125,7 +77,8 @@
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
                         </div>
                         <div class="text-center p-4">
-                            <h2 class="mb-0">LANGKAWI</h2>
+
+
                             <p>Langkawi, officially known as Langkawi, the Jewel of Kedah, is a duty-free island and an archipelago of 99 islands located some 30 km off the coast of northwestern Malaysia and a few kilometres south of Ko Tarutao</p>
                             <h3 class="mb-0">RM1375.00</h3>
                             <div class="mb-3">

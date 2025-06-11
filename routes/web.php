@@ -4,7 +4,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PackageController;
 use App\Http\Controllers\HomeController;
+<<<<<<< HEAD
 use App\Http\Controllers\CheckoutController;
+=======
+use App\Http\Controllers\ThreeDayController;
+>>>>>>> f5e290e9f64b152541fe2944d5fb53d95fde88d1
 
 // Home page route
 Route::get('/', function () {
@@ -13,6 +17,9 @@ Route::get('/', function () {
 Route::get('/', [HomeController::class, 'index'])->name('index');
 
 Route::get('/package', [PackageController::class, 'index'])->name('packages');
+
+Route::resource('threedaypackage', App\Http\Controllers\ThreeDayController::class);
+
 // Auth routes - outside the closure!
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [AuthController::class, 'login'])->name('login.submit');
@@ -24,3 +31,4 @@ Route::post('/logout', [AuthController::class, 'logout']);
 Route::get('/index', function () {
     return view('index');
 })->middleware('auth');
+
