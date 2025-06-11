@@ -14,19 +14,19 @@
                         <div class="overflow-hidden">
                            <ul class="carousel-slides">
                              <li class="carousel-slide">
-                               <img src="pangkor1.jpg" alt="Image 1">
+                               <img src="{{asset('img/pangkor1.jpg')}}" alt="Image 1">
                              </li>
                              <li class="carousel-slide">
-                              <img src="pangkor2.jpg" alt="Image 2">
+                              <img src="{{asset('img/pangkor2.jpg')}}" alt="Image 2">
                              </li>
                              <li class="carousel-slide">
-                              <img src="pangkor3.jpg" alt="Image 3">
+                              <img src="{{asset('img/pangkor3.jpg')}}" alt="Image 3">
                              </li>
                              <li class="carousel-slide">
-                              <img src="pangkor4.png" alt="Image 3">
+                              <img src="{{asset('img/pangkor4.png')}}" alt="Image 3">
                              </li>
                              <li class="carousel-slide">
-                              <img src="pangkor5.png" alt="Image 3">
+                              <img src="{{asset('img/pangkor5.png')}}" alt="Image 3">
                              </li>
                             </ul>
                         </div>
@@ -59,19 +59,19 @@
                         <div class="overflow-hidden">
                            <ul class="carousel-slides">
                              <li class="carousel-slide">
-                              <img src="penang1.jpg" alt="Image 1">
+                              <img src="{{asset('img/penang1.jpg')}}" alt="Image 1">
                              </li>
                              <li class="carousel-slide">
-                              <img src="penang2.jpeg" alt="Image 2">
+                              <img src="{{asset('img/penang2.jpeg')}}" alt="Image 2">
                              </li>
                              <li class="carousel-slide">
-                              <img src="penang3.jpg" alt="Image 3">
+                              <img src="{{asset('img/penang3.jpg')}}" alt="Image 3">
                              </li>
                              <li class="carousel-slide">
-                              <img src="penang4.png" alt="Image 3">
+                              <img src="{{asset('img/penang4.png')}}" alt="Image 3">
                              </li>
                              <li class="carousel-slide">
-                              <img src="penang5.png" alt="Image 3">
+                              <img src="{{asset('img/penang5.png')}}" alt="Image 3">
                              </li>
                             </ul>
                         </div>
@@ -103,19 +103,19 @@
                         <div class="overflow-hidden">
                            <ul class="carousel-slides">
                              <li class="carousel-slide">
-                              <img src="langkawi home.jpg" alt="Image 1">
+                              <img src="{{asset('img/langkawi5.jpg')}}" alt="Image 1">
                              </li>
                              <li class="carousel-slide">
-                              <img src="Langkawi1.webp" alt="Image 2">
+                              <img src="{{asset('img/langkawi1.webp')}}" alt="Image 2">
                              </li>
                              <li class="carousel-slide">
-                              <img src="langkawi2.jpg" alt="Image 3">
+                              <img src="{{asset('img/langkawi2.jpg')}}" alt="Image 3">
                              </li>
                              <li class="carousel-slide">
-                              <img src="langkawi3.png" alt="Image 3">
+                              <img src="{{asset('img/langkawi3.png')}}" alt="Image 3">
                              </li>
                              <li class="carousel-slide">
-                              <img src="langkawi4.png" alt="Image 3">
+                              <img src="{{asset('img/langkawi4.png')}}" alt="Image 3">
                              </li>
                            </ul>
                         </div>
