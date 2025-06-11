@@ -14,15 +14,21 @@
                         <div class="overflow-hidden">
                            <ul class="carousel-slides">
                              <li class="carousel-slide">
-                              <img src="img/package-3.jpg" alt="Image 1">
+                               <img src="pangkor1.jpg" alt="Image 1">
                              </li>
                              <li class="carousel-slide">
-                              <img src="img/package-2.jpg" alt="Image 2">
+                              <img src="pangkor2.jpg" alt="Image 2">
                              </li>
                              <li class="carousel-slide">
-                              <img src="img/package-1.jpg" alt="Image 3">
+                              <img src="pangkor3.jpg" alt="Image 3">
                              </li>
-                           </ul>
+                             <li class="carousel-slide">
+                              <img src="pangkor4.png" alt="Image 3">
+                             </li>
+                             <li class="carousel-slide">
+                              <img src="pangkor5.png" alt="Image 3">
+                             </li>
+                            </ul>
                         </div>
 
                         <div class="d-flex border-bottom">
@@ -53,15 +59,21 @@
                         <div class="overflow-hidden">
                            <ul class="carousel-slides">
                              <li class="carousel-slide">
-                              <img src="img/package-3.jpg" alt="Image 1">
+                              <img src="penang1.jpg" alt="Image 1">
                              </li>
                              <li class="carousel-slide">
-                              <img src="img/package-2.jpg" alt="Image 2">
+                              <img src="penang2.jpeg" alt="Image 2">
                              </li>
                              <li class="carousel-slide">
-                              <img src="img/package-1.jpg" alt="Image 3">
+                              <img src="penang3.jpg" alt="Image 3">
                              </li>
-                           </ul>
+                             <li class="carousel-slide">
+                              <img src="penang4.png" alt="Image 3">
+                             </li>
+                             <li class="carousel-slide">
+                              <img src="penang5.png" alt="Image 3">
+                             </li>
+                            </ul>
                         </div>
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Penang</small>
@@ -91,13 +103,19 @@
                         <div class="overflow-hidden">
                            <ul class="carousel-slides">
                              <li class="carousel-slide">
-                              <img src="img/package-3.jpg" alt="Image 1">
+                              <img src="langkawi home.jpg" alt="Image 1">
                              </li>
                              <li class="carousel-slide">
-                              <img src="img/package-2.jpg" alt="Image 2">
+                              <img src="Langkawi1.webp" alt="Image 2">
                              </li>
                              <li class="carousel-slide">
-                              <img src="img/package-1.jpg" alt="Image 3">
+                              <img src="langkawi2.jpg" alt="Image 3">
+                             </li>
+                             <li class="carousel-slide">
+                              <img src="langkawi3.png" alt="Image 3">
+                             </li>
+                             <li class="carousel-slide">
+                              <img src="langkawi4.png" alt="Image 3">
                              </li>
                            </ul>
                         </div>
