@@ -19,16 +19,34 @@ class AuthController extends Controller
         return view('register');
     }
 
-    public function login(Request $request)
-    {
-        $credentials = $request->only('email', 'password');
+    // public function login(Request $request)
+    // {
+    //     $credentials = $request->only('email', 'password');
 
-        if (Auth::attempt($credentials)) {
-            return redirect('/home');
-        }
+    //     if (Auth::attempt($credentials)) {
+    //         return redirect('/home');
+    //     }
 
-        return back()->withErrors(['email' => 'Invalid credentials']);
+    //     return back()->withErrors(['email' => 'Invalid credentials']);
+    // }
+
+//     public function login(Request $request)
+// {
+//      return response("✅ Login POST route reached!", 200);
+// }
+public function login(Request $request)
+{
+    $credentials = $request->only('email', 'password');
+
+    if (Auth::attempt($credentials)) {
+        return redirect('/index'); // You can change this to any route you want
     }
+
+    return back()->withErrors(['email' => 'Invalid credentials']);
+}
+
+
+
 
     public function register(Request $request)
     {
