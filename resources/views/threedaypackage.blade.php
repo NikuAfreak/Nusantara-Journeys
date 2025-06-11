@@ -15,13 +15,13 @@
                             <div id="packageCarousel1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                    <img src="img/penang1.jpg" class="d-block w-100" alt="...">
+                                    <img src="img/cameron1.webp" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                    <img src="img/penang2.jpeg" class="d-block w-100" alt="...">
+                                    <img src="img/cameron2.png" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                    <img src="img/penang3.jpg" class="d-block w-100" alt="...">
+                                    <img src="img/cameron3.webp" class="d-block w-100" alt="...">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#packageCarousel1" data-bs-slide="prev">
@@ -34,14 +34,14 @@
 
                         </div>
                         <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Pangkor</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>7 days</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Cameron Highlands</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
                         </div>
                         <div class="text-center p-4">
                             <h2 class="mb-0">CAMERON HIGHLANDS</h2>
                             <p>Escape Malaysia’s heat in misty tea plantations, strawberry farms, and jungle trails (like the Mossy Forest). It’s a cool, scenic retreat with Tudor-style lodges, fresh scones, and surreal emerald landscapes.</p>
-                            <h3 class="mb-0">RM2400.00</h3>
+                            <h3 class="mb-0">RM550.00</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -59,17 +59,35 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/package-2.jpg" alt="">
+                            <div id="packageCarousel1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                    <img src="img/melaka1.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="img/melaka2.webp" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="img/melaka3.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#packageCarousel1" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#packageCarousel1" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
                         </div>
                         <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Penang</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>7 days</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Melaka</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
                         </div>
                         <div class="text-center p-4">
                             <h2 class="mb-0">MELAKA</h2>
                             <p>Go for Southeast Asia’s best-preserved colonial port: a UNESCO site where Portuguese forts, Dutch squares, and Chinese temples collide. Feast on legendary nyonya laksa, chicken rice balls, and vibrant Jonker Street night markets.</p>
-                            <h3 class="mb-0">RM1000.00</h3>
+                            <h3 class="mb-0">RM620.00</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -87,17 +105,35 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/package-3.jpg" alt="">
+                            <div id="packageCarousel1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                    <img src="img/tioman1.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="img/tioman2.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="img/tioman3.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#packageCarousel1" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#packageCarousel1" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
                         </div>
                         <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Langkawi</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>7 days</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Tioman Island</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
                         </div>
                         <div class="text-center p-4">
                             <h2 class="mb-0">TIOMAN ISLAND</h2>
                             <p>Dive into crystal-clear waters teeming with turtles, reef sharks, and coral gardens — a paradise for snorkeling and beach lovers. Unwind in rustic chalets on palm-fringed bays like Juara or ABC, far from crowds.</p>
-                            <h3 class="mb-0">RM1375.00</h3>
+                            <h3 class="mb-0">RM675.00</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -128,7 +164,6 @@
                         <h1 class="text-white mb-4">Online Booking</h1>
                         <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                         <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                        <a class="btn btn-outline-light py-3 px-5 mt-2" href="">Read More</a>
                     </div>
                     <div class="col-md-6">
                         <h1 class="text-white mb-4">Book A Tour</h1>
