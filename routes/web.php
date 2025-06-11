@@ -3,12 +3,13 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PackageController;
+use App\Http\Controllers\HomeController;
 
 // Home page route
 Route::get('/', function () {
     return view('index');
 });
-
+Route::get('/', [HomeController::class, 'index'])->name('index');
 
 Route::get('/package', [PackageController::class, 'index'])->name('packages');
 // Auth routes - outside the closure!
