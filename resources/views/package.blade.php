@@ -51,7 +51,17 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/package-2.jpg" alt="">
+                           <ul class="carousel-slides">
+                             <li class="carousel-slide">
+                              <img src="img/package-3.jpg" alt="Image 1">
+                             </li>
+                             <li class="carousel-slide">
+                              <img src="img/package-2.jpg" alt="Image 2">
+                             </li>
+                             <li class="carousel-slide">
+                              <img src="img/package-1.jpg" alt="Image 3">
+                             </li>
+                           </ul>
                         </div>
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Penang</small>
@@ -79,7 +89,17 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/package-3.jpg" alt="">
+                           <ul class="carousel-slides">
+                             <li class="carousel-slide">
+                              <img src="img/package-3.jpg" alt="Image 1">
+                             </li>
+                             <li class="carousel-slide">
+                              <img src="img/package-2.jpg" alt="Image 2">
+                             </li>
+                             <li class="carousel-slide">
+                              <img src="img/package-1.jpg" alt="Image 3">
+                             </li>
+                           </ul>
                         </div>
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Langkawi</small>
