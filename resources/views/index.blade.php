@@ -199,7 +199,7 @@
                         <h5 class="mt-4">Choose A Destination</h5>
                         <hr class="w-25 mx-auto bg-primary mb-1">
                         <hr class="w-50 mx-auto bg-primary mt-0">
-                        <p class="mb-0">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet lorem sit</p>
+                        <p class="mb-0">Discover dream getaways—from misty highlands to coral-fringed islands—with one effortless search.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -210,7 +210,7 @@
                         <h5 class="mt-4">Pay Online</h5>
                         <hr class="w-25 mx-auto bg-primary mb-1">
                         <hr class="w-50 mx-auto bg-primary mt-0">
-                        <p class="mb-0">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet lorem sit</p>
+                        <p class="mb-0">Secure your escape instantly: zero fees, encrypted payments, and e-tickets in under 60 seconds.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -218,10 +218,10 @@
                         <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
                             <i class="fa fa-plane fa-3x text-white"></i>
                         </div>
-                        <h5 class="mt-4">Fly Today</h5>
+                        <h5 class="mt-4">Instant Bookings</h5>
                         <hr class="w-25 mx-auto bg-primary mb-1">
                         <hr class="w-50 mx-auto bg-primary mt-0">
-                        <p class="mb-0">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet lorem sit</p>
+                        <p class="mb-0">Get every package you buy instantly, no hassle at all. Make your money worth.</p>
                     </div>
                 </div>
             </div>
@@ -310,27 +310,27 @@
             <div class="owl-carousel testimonial-carousel position-relative">
                 <div class="testimonial-item bg-white text-center border p-4">
                     <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">John Doe</h5>
+                    <h5 class="mb-0">Mariah Carrey</h5>
                     <p>New York, USA</p>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">Cameron Highlands was amazing, I would definitely recommend anyone to go there.</p>
                 </div>
                 <div class="testimonial-item bg-white text-center border p-4">
                     <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">John Doe</h5>
-                    <p>New York, USA</p>
-                    <p class="mt-2 mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <h5 class="mb-0">Ed Sheeran</h5>
+                    <p>Las Vegas, USA</p>
+                    <p class="mt-2 mb-0">I loved the corals at Tioman Island, definitely worth my money.</p>
                 </div>
                 <div class="testimonial-item bg-white text-center border p-4">
                     <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">John Doe</h5>
-                    <p>New York, USA</p>
-                    <p class="mt-2 mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <h5 class="mb-0">IShowSpeed</h5>
+                    <p>Yanbu, Saudi Arabia</p>
+                    <p class="mt-2 mb-0">I love all the food I ate in Penang. As a foodie, this place is in first place in my heart.</p>
                 </div>
                 <div class="testimonial-item bg-white text-center border p-4">
                     <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">John Doe</h5>
-                    <p>New York, USA</p>
-                    <p class="mt-2 mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <h5 class="mb-0">Emmie Shayl</h5>
+                    <p>Baku, AZ</p>
+                    <p class="mt-2 mb-0">Pangkor Island was beautiful. The pictures I took were breathtaking.</p>
                 </div>
             </div>
         </div>
