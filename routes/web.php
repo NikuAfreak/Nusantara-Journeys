@@ -1,10 +1,11 @@
-<<?php
+<?php
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PackageController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ThreeDayController;
+use App\Http\Controllers\CheckoutController;
 
 // Home page route
 Route::get('/', function () {
@@ -28,3 +29,5 @@ Route::get('/index', function () {
     return view('index');
 })->middleware('auth');
 
+Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout');
+Route::post('/checkout/process', [CheckoutController::class, 'process'])->name('checkout.process');
