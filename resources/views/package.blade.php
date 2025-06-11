@@ -11,7 +11,7 @@
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
-                        <div class="carousel">
+                        <div class="overflow-hidden">
                            <ul class="carousel-slides">
                              <li class="carousel-slide">
                               <img src="img/package-3.jpg" alt="Image 1">
@@ -25,7 +25,7 @@
                            </ul>
                            <a href="#" class="carousel-prev">Previous</a>
                            <a href="#" class="carousel-next">Next</a>
-                </div>
+                        </div>
 
                         <div class="d-flex border-bottom">
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Pangkor</small>
