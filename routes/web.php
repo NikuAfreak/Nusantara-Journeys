@@ -15,7 +15,7 @@ Route::get('/', [HomeController::class, 'index'])->name('index');
 
 Route::get('/package', [PackageController::class, 'index'])->name('packages');
 
-Route::resource('threedaypackage', App\Http\Controllers\ThreeDayController::class);
+Route::get('/threedaypackage', [ThreeDayController::class, 'index'])->name('threedaypackage');
 
 // Auth routes - outside the closure!
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
