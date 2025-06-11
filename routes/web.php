@@ -31,5 +31,7 @@ Route::get('/index', function () {
     return view('index');
 })->middleware('auth');
 
+
 Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout');
 Route::post('/checkout/process', [CheckoutController::class, 'process'])->name('checkout.process');
+Route::get('/booking/success', [CheckoutController::class, 'success'])->name('booking.success');

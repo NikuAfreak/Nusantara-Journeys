@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Booking;
+use App\Models\Package;
 
 class CheckoutController extends Controller
 {
@@ -23,16 +25,48 @@ class CheckoutController extends Controller
             'zip' => 'required|string|max:20',
             'country' => 'required|string|max:255',
             'payment_method' => 'required|string',
-            // Add validation for credit card fields if payment_method is credit_card
+            'card_number' => 'required_if:payment_method,credit_card',
+            'expiry_date' => 'required_if:payment_method,credit_card',
+            'cvv' => 'required_if:payment_method,credit_card',
+            'bank_receipt' => 'required_if:payment_method,bank_transfer',
         ]);
 
 
-        // Process the payment and create booking
-        // You'll need to implement your payment processing logic here
+        $package = session('package');
 
+        if (!$package) {
+            return redirect()->back()->with('error', 'Package not found in session');
+        }
 
-        // Redirect to a success page or back with success message
-        return redirect()->route('booking.success')->with('success', 'Your booking has been confirmed!');
+        // Create booking
+        $booking = Booking::create([
+            'user_id' => auth()->id(),
+            'package_name' => $package['name'], // Store package name since we don't have ID
+            'package_price' => $package['price'],
+            'reference_number' => 'BOOK-' . now()->timestamp,
+            'amount' => $package['price'],
+            'status' => 'confirmed',
+            'customer_details' => json_encode($validated) // Store all customer details
+        ]);
+
+        // Clear session
+        session()->forget('package');
+
+        // Redirect to success page with booking ID
+        return redirect()->route('booking.success')->with([
+            'success' => 'Booking confirmed! Your reference number is: ' . $booking->reference_number,
+            'booking' => $booking->toArray() // Convert to array for session storage
+        ]);
     }
 
+    public function success()
+    {
+        if (!session()->has('success')) {
+            return redirect()->route('home');
+        }
+
+        return view('booking.success', [
+            'booking' => (object) session('booking') // Convert back to object for view
+        ]);
+    }
 }

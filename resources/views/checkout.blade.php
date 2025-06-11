@@ -1,92 +1,23 @@
 @extends('master.layout')
 @section('content')
 
-    {{-- <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+    @if($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
     </div>
-    <!-- Spinner End -->
+    @endif
 
-
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
-        <div class="row gx-0">
-            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
-                <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
-                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@example.com</small>
-                </div>
-            </div>
-            <div class="col-lg-4 text-center text-lg-end">
-                <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
-                </div>
-            </div>
+    @if(session('error'))
+        <div class="alert alert-danger">
+            {{ session('error') }}
         </div>
-    </div>
-    <!-- Topbar End -->
+    @endif
 
-
-    <!-- Navbar & Hero Start -->
-    <div class="container-fluid position-relative p-0">
-        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-            <a href="" class="navbar-brand p-0">
-                <h1 class="text-primary m-0"><i class="fa fa-map-marker-alt me-3"></i>Tourist</h1>
-                <!-- <img src="img/logo.png" alt="Logo"> -->
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Services</a>
-                    <a href="package.html" class="nav-item nav-link">Packages</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="destination.html" class="dropdown-item">Destination</a>
-                            <a href="booking.html" class="dropdown-item active">Booking</a>
-                            <a href="team.html" class="dropdown-item">Travel Guides</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="404.html" class="dropdown-item">404 Page</a>
-                        </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                </div>
-                <a href="" class="btn btn-primary rounded-pill py-2 px-4">Register</a>
-            </div>
-        </nav>
-
-        <div class="container-fluid bg-primary py-5 mb-5 hero-header">
-            <div class="container py-5">
-                <div class="row justify-content-center py-5">
-                    <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
-                        <h1 class="display-3 text-white animated slideInDown">Booking</h1>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                                <li class="breadcrumb-item text-white active" aria-current="page">Booking</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Navbar & Hero End --> --}}
-
-
-        <!-- Checkout Start -->
+    <!-- Checkout Start -->
     <div class="container-xxl py-5" >
         <div class="container" style="margin-top: 80px;">
             <div class="row g-5">
@@ -193,38 +124,60 @@
                                 </table>
                             </div>
 
+                            <!-- Payment Method -->
                             <h4 class="my-4">Payment Method</h4>
-                            <div class="form-check">
+                            <div class="form-check mb-3">
                                 <input class="form-check-input" type="radio" name="payment_method" id="credit_card" value="credit_card" checked>
                                 <label class="form-check-label" for="credit_card">
                                     Credit Card
                                 </label>
                             </div>
-                            <div class="form-check">
+                            <div class="form-check mb-3">
                                 <input class="form-check-input" type="radio" name="payment_method" id="bank_transfer" value="bank_transfer">
                                 <label class="form-check-label" for="bank_transfer">
                                     Bank Transfer
                                 </label>
                             </div>
 
+                            <!-- Credit Card Fields (Initially Visible) -->
                             <div id="credit_card_details" class="mt-4">
                                 <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="card_number" name="card_number" placeholder="Card Number">
+                                    <input type="text" class="form-control" id="card_number" name="card_number" placeholder="Card Number" required>
                                     <label for="card_number">Card Number</label>
                                 </div>
                                 <div class="row g-2">
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="expiry_date" name="expiry_date" placeholder="MM/YY">
+                                            {{-- <input type="text" class="form-control" id="expiry_date" name="expiry_date" placeholder="MM/YY"> --}}
+                                            <input type="month" class="form-control" id="expiry_date" name="expiry_date" min="{{ now()->format('Y-m') }}" required>
                                             <label for="expiry_date">Expiry Date</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="cvv" name="cvv" placeholder="CVV">
+                                            <input type="text" class="form-control" id="cvv" name="cvv" placeholder="CVV" required>
                                             <label for="cvv">CVV</label>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+
+                            <!-- Bank Transfer Fields (Initially Hidden) -->
+                            <div id="bank_transfer_details" class="mt-4" style="display: none;">
+                                <div class="alert alert-info">
+                                    <h5><i class="fas fa-university"></i> Bank Transfer Instructions</h5>
+                                    <p>Please transfer the payment to the following account:</p>
+                                    <ul class="mb-0">
+                                        <li><strong>Bank Name:</strong> Maybank</li>
+                                        <li><strong>Account Name:</strong> Travel Agency Sdn Bhd</li>
+                                        <li><strong>Account Number:</strong> 1234-5678-9012</li>
+                                        <li><strong>Amount:</strong> RM{{ session('package') ? number_format(session('package')['price'], 2) : '0.00' }}</li>
+                                    </ul>
+                                    <p class="mt-2"><small>Your booking will be confirmed after payment is verified.</small></p>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="bank_receipt" name="bank_receipt" placeholder="Transaction Reference" required>
+                                    <label for="bank_receipt">Transaction Reference/Receipt Number</label>
                                 </div>
                             </div>
 
@@ -243,5 +196,31 @@
         </div>
     </div>
     <!-- Checkout End -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const creditCardRadio = document.getElementById('credit_card');
+            const bankTransferRadio = document.getElementById('bank_transfer');
+            const creditCardDetails = document.getElementById('credit_card_details');
+            const bankTransferDetails = document.getElementById('bank_transfer_details');
+
+            // Toggle fields based on payment method
+            function togglePaymentFields() {
+                if (creditCardRadio.checked) {
+                    creditCardDetails.style.display = 'block';
+                    bankTransferDetails.style.display = 'none';
+                } else {
+                    creditCardDetails.style.display = 'none';
+                    bankTransferDetails.style.display = 'block';
+                }
+            }
+
+            // Initial toggle
+            togglePaymentFields();
+
+            // Add event listeners
+            creditCardRadio.addEventListener('change', togglePaymentFields);
+            bankTransferRadio.addEventListener('change', togglePaymentFields);
+        });
+    </script>
 
 @endsection
