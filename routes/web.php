@@ -14,8 +14,10 @@ Route::get('/', function () {
 Route::get('/', [HomeController::class, 'index'])->name('index');
 
 Route::get('/package', [PackageController::class, 'index'])->name('packages');
+Route::get('/package/book/{package}', [PackageController::class, 'book'])->name('package.book');
 
 Route::get('/threedaypackage', [ThreeDayController::class, 'index'])->name('threedaypackage');
+Route::get('/threedaypackage/book/{package}', [ThreeDayController::class, 'book'])->name('threedaypackage.book');
 
 // Auth routes - outside the closure!
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');

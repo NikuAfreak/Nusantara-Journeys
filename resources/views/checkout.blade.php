@@ -173,21 +173,21 @@
                                     <tbody>
                                         @if(session('package'))
                                         <tr>
-                                            <td>{{ session('package')->name }}</td>
-                                            <td>${{ number_format(session('package')->price, 2) }}</td>
+                                            <td>{{ session('package')['name'] }}</td>
+                                            <td>RM{{ number_format(session('package')['price'], 2) }}</td>
                                         </tr>
                                         @endif
                                         <tr>
                                             <th>Subtotal</th>
-                                            <td>${{ number_format(session('package') ? session('package')->price : 0, 2) }}</td>
+                                            <td>RM{{ number_format(session('package') ? session('package')['price'] : 0, 2) }}</td>
                                         </tr>
                                         <tr>
                                             <th>Tax</th>
-                                            <td>$0.00</td>
+                                            <td>RM0.00</td>
                                         </tr>
                                         <tr>
                                             <th>Total</th>
-                                            <td>${{ number_format(session('package') ? session('package')->price : 0, 2) }}</td>
+                                            <td>RM{{ number_format(session('package') ? session('package')['price'] : 0, 2) }}</td>
                                         </tr>
                                     </tbody>
                                 </table>

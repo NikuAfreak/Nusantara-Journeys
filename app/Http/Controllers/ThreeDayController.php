@@ -14,8 +14,18 @@ class ThreeDayController extends Controller
         return view('threedaypackage');
     }
 
-    public function book(Package $package){
-        session(['package' => $package]);
+    public function book($packageName){
+        $packages = [
+            'cameron-highlands' => ['name' => 'CAMERON HIGHLANDS', 'price' => 550.00],
+            'melaka' => ['name' => 'MELAKA', 'price' => 620.00],
+            'tioman-island' => ['name' => 'TIOMAN ISLAND', 'price' => 675.00],
+        ];
+
+        if (!array_key_exists($packageName, $packages)) {
+            abort(404);
+        }
+
+        session(['package' => $packages[$packageName]]);
         return redirect()->route('checkout');
     }
 
