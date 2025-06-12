@@ -108,19 +108,33 @@ The first screen I worked on is the 3-Day Travel Packages page. This is where vi
 
 ### Login and Register Page
 
+![login1](/assets/login1.png "login1")
+
 The Login page allows users to enter their email and password, which are then verified against the database. If the credentials do not match any existing account, an error message is displayed.
 
+![login2](/assets/login2.png "login2")
+
+![login3](/assets/login3.png "login3")
+
 If a user is not registered, they can navigate to the Register page and enter their details to create a new account. The system requires a password that is more than 6 characters long.
+
+![login4](/assets/login4.png "login4")
 
 If a user attempts to register with information that already exists in our database, an error message will appear to notify them.
 
 ### 7 Day Packages
 
+![package1](/assets/package1.png "7Day")
+
 The first screen I worked on is the 7-Day Travel Packages page. This is where visitors can view all the short travel packages offered by Nusantara. Each package is shown in a card layout. The card includes a beautiful image of the destination, the name of the package, the location, a short description, and the price in Malaysian Ringgit. I also added a brown “Book Now” button that users can click to start booking. I made the design simple but professional by using Bootstrap for layout and spacing. The whole page has a background image of the ocean and forest to match the travel theme and make it feel more relaxing and attractive.
 
 ### Checkout Page
 
+![book1](/assets/book1.png "book1")
+
 After the user clicks the Book Now button, the user will be directed to the check out page. The user must complete all the required information and choose a payment method. After all that, the user must click the Complete Booking button for Tour Booking confirmation.
+
+![book2](/assets/book2.png "book2")
 
 After that, the confirmation page will popup.
 
