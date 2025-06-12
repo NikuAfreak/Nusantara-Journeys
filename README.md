@@ -71,9 +71,6 @@ The purpose of this tourism web application is to make it easy for users to plan
 | User Reviews      | Places and packages can be rated and reviewed by users.       |
 | Media Gallery      | Displays lovely images and brief films for every location.       |
 
-## ENTITY RELATIONSHIP DIAGRAM (ERD)
-
-![ERD](/assets/erdnusantara.png "ERD Diagram")
 
 ## Sequence Diagram
 
