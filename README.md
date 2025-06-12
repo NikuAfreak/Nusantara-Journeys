@@ -79,6 +79,86 @@ The purpose of this tourism web application is to make it easy for users to plan
 
 ![sequence](/assets/sequencediagram.png "Sequence Diagram")
 
+## CAPTURED SCREEN & EXPLANATION
+
+### Home Page
+
+This is the home page we created. Overall you can see a dark orange color has been used for all the highlights. This is to match the logo that we designed.  Our logo is actually a traditionally designed Malay building that shows Malay’s traditional architecture. The Navigation bar will have a different color and include an underline depending on which page is being shown to the user. The first thing that users see is the large image of people kayaking. It is one of our activities in one of our destinations. Beside it, the description of this website is shown along with features of our services.
+
+
+Underneath, the page shows our services. The services provided are WorldWide transactions, comfortable stays, travel guides, and event management. Every package a customer buys will include all of these features.
+
+Additionally, the user can see our most popular destinations from our website. A gallery format is used to showcase all the pictures from different destinations. The user can click on any of the images to redirect themselves to the respected page. There are also small texts on the corner showing our bestseller along with a budget choice, which is a package that is much cheaper compared to others. 
+
+Here, we can see all of our travel guides that will be alongside our clients. They will help you with anything you need, from accommodation to restaurants. They are trained for maximum hospitality. 
+
+Lastly, there is a testimonial section where reviews and comments from previous buyers are shown. Our customers come from all over the world, showing the capability to host anyone from anywhere. 
+
+### 3 Day Packages
+
+The first screen I worked on is the 3-Day Travel Packages page. This is where visitors can view all the short travel packages offered by Nusantara. Each package is shown in a card layout. The card includes a beautiful image of the destination, the name of the package, the location, a short description, and the price in Malaysian Ringgit. I also added a brown “Book Now” button that users can click to start booking. I made the design simple but professional by using Bootstrap for layout and spacing. The whole page has a background image of the ocean and forest to match the travel theme and make it feel more relaxing and attractive.
+
+### Login and Register Page
+
+The Login page allows users to enter their email and password, which are then verified against the database. If the credentials do not match any existing account, an error message is displayed.
+
+If a user is not registered, they can navigate to the Register page and enter their details to create a new account. The system requires a password that is more than 6 characters long.
+
+If a user attempts to register with information that already exists in our database, an error message will appear to notify them.
+
+### 7 Day Packages
+
+The first screen I worked on is the 7-Day Travel Packages page. This is where visitors can view all the short travel packages offered by Nusantara. Each package is shown in a card layout. The card includes a beautiful image of the destination, the name of the package, the location, a short description, and the price in Malaysian Ringgit. I also added a brown “Book Now” button that users can click to start booking. I made the design simple but professional by using Bootstrap for layout and spacing. The whole page has a background image of the ocean and forest to match the travel theme and make it feel more relaxing and attractive.
+
+### Checkout Page
+
+After the user clicks the Book Now button, the user will be directed to the check out page. The user must complete all the required information and choose a payment method. After all that, the user must click the Complete Booking button for Tour Booking confirmation.
+
+After that, the confirmation page will popup.
+
+## CHALLENGES AND DIFFICULTIES DEVELOPING THE SITE
+
+### Home Page and Layout
+
+1. Getting the route links for every page to Navbar
+Every page in the project needs to be routed along with its controller before it can be shown in the Navbar.
+2. Active Site in Navbar
+When a page is shown to the user, the corresponding page in the Navbar must be a different colour and highlighted to show that it is the active page being shown. I used
+{{ Route::is('threedaypackage') ? 'active' : '' }}
+to check if the selected page active, then it will change the color by itself. 
+3. Layout Yields
+The layout had to be created by properly dividing the HTML template so it can be shown in all pages.
+4. Bootstrap Colors
+Since I am using Bootstrap, I need to change all the colors used in icons and elements so there aren’t any conflicts between the original template and the one we created. 
+
+### Login/Register Page
+
+1. Handling Validation and Errors Gracefully
+Another challenge was validating user input (like email and password), showing meaningful error messages. Laravel provides tools, but it took effort to use them properly in Blade templates.
+2. Setting Up and Linking Routes Correctly
+One difficulty was making sure that the GET or POST routes for login and registration were properly defined and linked to the correct controller functions. A missing route name or typo could easily result in a 404 error or Laravel exception
+
+### 3 Day Packages Page
+
+While building this booking application, I faced a few challenges that taught me a lot. One of the biggest problems was getting the images to show properly. At first, they didn’t appear on the page because I had placed them in the wrong folder or used the wrong file name. I had to rename the images and make sure they were stored in the correct public/img folder so Laravel could find them.
+Another challenge was when users filled in the booking form — the data wasn’t saving into the database. I later found out it was because I had used the package title instead of the package ID, which caused errors. I fixed this by changing the hidden input field and updating the controller to store the right value.
+Styling the form and thank-you page was also not easy. I wanted both pages to look professional and beautiful, so I searched for a nice ocean and forest background and carefully applied it using Bootstrap and CSS. I also made the form appear in a clean, centered card for better design.
+One more challenge was with GitHub. I had difficulty pushing my work and connecting it with the team repository. Alhamdulillah, one of my friends from the group kindly helped me understand how to use GitHub and commit my changes properly. That support made things easier, and now I feel more confident using it.
+Lastly, getting the success message to show after booking was another step that took time to work correctly. But after trying and testing again and again, I was happy to see it working with the user’s name and a soft confirmation message.
+
+### 7 Day Packages
+
+1. Attention to details
+I always forgot to put some component of the code for the code to run, especially the formatting for the images
+
+2. Put element to make images more appeal for user
+This really put me back to studying Web Technology about html, css and javascript. Some of it like how to make the size of the image consistent even with the css part already set up, usage of the images also important to make it standardized Overall for the Laravel part, I have no big issues with it since I just learned it in class.
+
+### Checkout Page
+
+I stumbled upon a problem where I have to keep adding stuff to the project to make it work smoothly without hiccups. I spent an entire night not sleeping to figure out the problems and it made me learn something valuable. To enjoy the process.
+
+
 ## References
 
 Stapylton-Smith, L. (2025, April 9). The most beautiful places to visit in Malaysia | Unforgettable travel company. Unforgettable Travel Company. https://unforgettabletravel.com/blog/the-most-beautiful-places-to-visit-in-malaysia/
