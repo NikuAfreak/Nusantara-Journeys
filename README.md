@@ -80,18 +80,29 @@ The purpose of this tourism web application is to make it easy for users to plan
 
 ### Home Page
 
+![home1](/assets/home1.png "home1")
+
 This is the home page we created. Overall you can see a dark orange color has been used for all the highlights. This is to match the logo that we designed.  Our logo is actually a traditionally designed Malay building that shows Malay’s traditional architecture. The Navigation bar will have a different color and include an underline depending on which page is being shown to the user. The first thing that users see is the large image of people kayaking. It is one of our activities in one of our destinations. Beside it, the description of this website is shown along with features of our services.
 
+![home2](/assets/home2.png "home2")
 
 Underneath, the page shows our services. The services provided are WorldWide transactions, comfortable stays, travel guides, and event management. Every package a customer buys will include all of these features.
 
+![home3](/assets/home3.png "home3")
+
 Additionally, the user can see our most popular destinations from our website. A gallery format is used to showcase all the pictures from different destinations. The user can click on any of the images to redirect themselves to the respected page. There are also small texts on the corner showing our bestseller along with a budget choice, which is a package that is much cheaper compared to others. 
 
+![home4](/assets/home4.png "home4")
+
 Here, we can see all of our travel guides that will be alongside our clients. They will help you with anything you need, from accommodation to restaurants. They are trained for maximum hospitality. 
+
+![home5](/assets/home5.png "home5")
 
 Lastly, there is a testimonial section where reviews and comments from previous buyers are shown. Our customers come from all over the world, showing the capability to host anyone from anywhere. 
 
 ### 3 Day Packages
+
+![home6](/assets/home6.png "3Day")
 
 The first screen I worked on is the 3-Day Travel Packages page. This is where visitors can view all the short travel packages offered by Nusantara. Each package is shown in a card layout. The card includes a beautiful image of the destination, the name of the package, the location, a short description, and the price in Malaysian Ringgit. I also added a brown “Book Now” button that users can click to start booking. I made the design simple but professional by using Bootstrap for layout and spacing. The whole page has a background image of the ocean and forest to match the travel theme and make it feel more relaxing and attractive.
 
